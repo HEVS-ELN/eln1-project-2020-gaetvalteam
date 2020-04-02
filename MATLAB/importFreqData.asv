@@ -18,10 +18,7 @@ Cpr = - tan(Phase2) .* ((Rpr + R1) ./ (Rpr * R1)) .* (1./(2*pi*freq));
 figure(1)
 loglog(freq, Rpr);
 title("Rpr en fonction de freq");
-grid on;
 hold on;
 figure(2)
 loglog(freq, Cpr);
-title("Cpr en fonction de freq");
-grid on;
 hold on;
